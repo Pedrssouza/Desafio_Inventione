@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    
+    <link data-require="bootstrap@3.3.7" data-semver="3.3.7" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <script data-require="bootstrap@3.3.7" data-semver="3.3.7" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+
+  </head>
+
+  <body>
+    <div class="header">
+          
+          <h3 class="teste">Teste Inventione</h3>
+          <h1 class="nome">Pedro Henrique Santana Souza</h1>
+
+    </div>
+    <br>
+    <div class="content-wrap">
+	  <form onsubmit="return false;">
+		
+      <div class="data">
+        <label>Data: </label>
+        <input type="date" name="data" id="date" max="2022-05-22" required="required" />
+      </div>
+       
+        <label >Nome:</label>
+        <input type="text" id="formname" name="name" required="required"><br>
+
+        
+        <label for="formage">Idade: </label>
+        <input type="number" id="formage" name="age" min="1" oninput="validity.valid||(value='');" required="required">
+
+        
+        <br>
+        <input type="radio" id="formmale" name="gender" value="homem">
+        <label for="formmale">Homem</label>
+        <br>
+        <input type="radio" id="formfemale" name="gender" value="mulher">
+        <label for="formmale">Mulher</label>
+        <label for="formfemale"></label>
+        <br>
+
+        
+        <input type="checkbox" id="checkbox" name="twoPanel" value="twoPanel">
+        <label for="vehicle1"> Habilitar Segundo Painel</label><br>
+
+      
+      <div id="SegundoPainel"></div>
+      <br>
+      <div id="divBotao"></div>
+      <br>
+      <div id="Resultado"></div>   
+    </form>
+</div>
+<script src="script.js"></script>
+  </body>
+
+</html>

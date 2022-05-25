@@ -1,0 +1,81 @@
+.content-wrap {
+  width: 640px;
+  margin: auto;
+}
+
+.content-wrap h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.teste{
+  
+  text-align: center;
+  font-weight: bold;
+}
+
+
+.nome{
+  color: aliceblue;
+
+  text-align: center;
+  font-weight: bold;
+  
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background-color: #1100ff;
+  color: white;
+  font-size: 30px;
+}
+
+.data{
+ 
+  height: 0vmax;
+  text-align: right;
+  
+}
+#Botao{
+  background-color: rgb(0 117 188);
+  color:white;
+  border-color: rgb(0 117 188);
+  width: 100px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+
+#formname{
+  border-radius: 5px;
+  width:40%;;
+}
+
+#formage{
+  border-radius: 5px;
+  width:50px;
+}
+
+
+.box-container {
+  width:
+  180px;
+  
+  }
+
+
+  #resultado{
+    position: relative;
+    left:25%; 
+    text-align:center;
+    resize: none;
+    border-radius:5px;
+    border-color:black;
+    box-shadow: 2px 2px rgb(61 184 255), -1px -2px rgb(61 184 255);
+    min-width: 50%;
+    min-height: 120px;
+    font-weight: bold;
+
+  
+  }
